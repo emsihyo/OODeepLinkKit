@@ -32,10 +32,10 @@
 		0A4F4FE7208EC6BF004A6456 /* DPLMutableDeepLink+OO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FE4208EC6BF004A6456 /* DPLMutableDeepLink+OO.h */; };
 		0A4F4FE8208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */; };
 		0A4F4FE9208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */; };
-		2C684226B1CFD92AC7FDA806 /* Pods_OODeepLinkKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9919538D6210DBB563DFE1C /* Pods_OODeepLinkKit_tvOS.framework */; };
-		3417084A688EC3C6F9D783E3 /* Pods_OODeepLinkKit_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1CB98B692740B5FF4173B6 /* Pods_OODeepLinkKit_tvOS_Example.framework */; };
-		67D67914DB42560F216E42CD /* Pods_OODeepLinkKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679797E8B7730EC20E073604 /* Pods_OODeepLinkKit_iOS.framework */; };
-		BAA2A8221DFE953208C6EFA7 /* Pods_OODeepLinkKit_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82058B63178B962818D358E /* Pods_OODeepLinkKit_iOS_Example.framework */; };
+		44B6295A8590CD49DFFE1D29 /* Pods_OODeepLinkKit_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147EA60296E93CC18C35CB3E /* Pods_OODeepLinkKit_tvOS_Example.framework */; };
+		47A75A0D1AD5EC60E0225027 /* Pods_OODeepLinkKit_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3C3D709248697F246E86A0 /* Pods_OODeepLinkKit_iOS_Example.framework */; };
+		57AF210C400B875B247726DC /* Pods_OODeepLinkKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351590B22399214AA610E39B /* Pods_OODeepLinkKit_iOS.framework */; };
+		893B8D5CC61D5BF1E3E20B5D /* Pods_OODeepLinkKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB45E9F9D417DF8C22A56F5 /* Pods_OODeepLinkKit_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,18 +111,18 @@
 		0A4F4FEB208F0ECE004A6456 /* OODeepLinkKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OODeepLinkKit.podspec; sourceTree = SOURCE_ROOT; };
 		0A4F4FEC208F0ECE004A6456 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0A4F4FED208F0ECE004A6456 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		1013E9223F2EC90142E63A45 /* Pods-OODeepLinkKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS/Pods-OODeepLinkKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		130498CCF695991027AE1EF3 /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		679797E8B7730EC20E073604 /* Pods_OODeepLinkKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D2589D2AC9BD035E94705D /* Pods-OODeepLinkKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS/Pods-OODeepLinkKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		87D8A5705B2DF38061EDE16B /* Pods-OODeepLinkKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS/Pods-OODeepLinkKit iOS.release.xcconfig"; sourceTree = "<group>"; };
-		C731BBACEE3826D8BA65956F /* Pods-OODeepLinkKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS/Pods-OODeepLinkKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C82058B63178B962818D358E /* Pods_OODeepLinkKit_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1CB98B692740B5FF4173B6 /* Pods_OODeepLinkKit_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9B7C8A64984BB9D39299BE4 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		DBE8E97F50D8BB8CC08824D5 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		E035E1F9D18C3534215D7DBD /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9919538D6210DBB563DFE1C /* Pods_OODeepLinkKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		147EA60296E93CC18C35CB3E /* Pods_OODeepLinkKit_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C4851E031BD0306FA7D791 /* Pods-OODeepLinkKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS/Pods-OODeepLinkKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2BC654777E61204CA244547A /* Pods-OODeepLinkKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS/Pods-OODeepLinkKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2F2BD18DB4783446A810C3A8 /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		351590B22399214AA610E39B /* Pods_OODeepLinkKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A07749347419F366E470B30 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		7FDC2AA67B5B4BAA29C453D6 /* Pods-OODeepLinkKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS/Pods-OODeepLinkKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9AB7A6628DBFC30E6F828B4D /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3C3D709248697F246E86A0 /* Pods_OODeepLinkKit_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB45E9F9D417DF8C22A56F5 /* Pods_OODeepLinkKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD814BD6BB8D93B8550BEE67 /* Pods-OODeepLinkKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS/Pods-OODeepLinkKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E41BCBC1ED83B8EFA64A7C87 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D67914DB42560F216E42CD /* Pods_OODeepLinkKit_iOS.framework in Frameworks */,
+				57AF210C400B875B247726DC /* Pods_OODeepLinkKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2DC4F1208CF36F00BBF5DA /* OODeepLinkKit.framework in Frameworks */,
-				BAA2A8221DFE953208C6EFA7 /* Pods_OODeepLinkKit_iOS_Example.framework in Frameworks */,
+				47A75A0D1AD5EC60E0225027 /* Pods_OODeepLinkKit_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2DC502208CF58000BBF5DA /* OODeepLinkKit.framework in Frameworks */,
-				3417084A688EC3C6F9D783E3 /* Pods_OODeepLinkKit_tvOS_Example.framework in Frameworks */,
+				44B6295A8590CD49DFFE1D29 /* Pods_OODeepLinkKit_tvOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C684226B1CFD92AC7FDA806 /* Pods_OODeepLinkKit_tvOS.framework in Frameworks */,
+				893B8D5CC61D5BF1E3E20B5D /* Pods_OODeepLinkKit_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +170,8 @@
 				0A2DC4C0208CF33800BBF5DA /* OODeepLinkKit iOS Example */,
 				0A2DC4DA208CF35700BBF5DA /* OODeepLinkKit tvOS Example */,
 				0A2DC4A4208CF22A00BBF5DA /* Products */,
-				BAFC0B7D3F338E91A117CDB4 /* Pods */,
-				C8751750AF7C90C1A1210673 /* Frameworks */,
+				0A390683FB4AF527C986E54D /* Pods */,
+				123BE0206381BA6DD9004BBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,28 +233,28 @@
 			path = "OODeepLinkKit tvOS Example";
 			sourceTree = "<group>";
 		};
-		BAFC0B7D3F338E91A117CDB4 /* Pods */ = {
+		0A390683FB4AF527C986E54D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1013E9223F2EC90142E63A45 /* Pods-OODeepLinkKit iOS.debug.xcconfig */,
-				87D8A5705B2DF38061EDE16B /* Pods-OODeepLinkKit iOS.release.xcconfig */,
-				130498CCF695991027AE1EF3 /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */,
-				D9B7C8A64984BB9D39299BE4 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */,
-				C731BBACEE3826D8BA65956F /* Pods-OODeepLinkKit tvOS.debug.xcconfig */,
-				81D2589D2AC9BD035E94705D /* Pods-OODeepLinkKit tvOS.release.xcconfig */,
-				E035E1F9D18C3534215D7DBD /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */,
-				DBE8E97F50D8BB8CC08824D5 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */,
+				26C4851E031BD0306FA7D791 /* Pods-OODeepLinkKit iOS.debug.xcconfig */,
+				2BC654777E61204CA244547A /* Pods-OODeepLinkKit iOS.release.xcconfig */,
+				9AB7A6628DBFC30E6F828B4D /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */,
+				7A07749347419F366E470B30 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */,
+				CD814BD6BB8D93B8550BEE67 /* Pods-OODeepLinkKit tvOS.debug.xcconfig */,
+				7FDC2AA67B5B4BAA29C453D6 /* Pods-OODeepLinkKit tvOS.release.xcconfig */,
+				2F2BD18DB4783446A810C3A8 /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */,
+				E41BCBC1ED83B8EFA64A7C87 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C8751750AF7C90C1A1210673 /* Frameworks */ = {
+		123BE0206381BA6DD9004BBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				679797E8B7730EC20E073604 /* Pods_OODeepLinkKit_iOS.framework */,
-				C82058B63178B962818D358E /* Pods_OODeepLinkKit_iOS_Example.framework */,
-				F9919538D6210DBB563DFE1C /* Pods_OODeepLinkKit_tvOS.framework */,
-				CA1CB98B692740B5FF4173B6 /* Pods_OODeepLinkKit_tvOS_Example.framework */,
+				351590B22399214AA610E39B /* Pods_OODeepLinkKit_iOS.framework */,
+				9C3C3D709248697F246E86A0 /* Pods_OODeepLinkKit_iOS_Example.framework */,
+				ACB45E9F9D417DF8C22A56F5 /* Pods_OODeepLinkKit_tvOS.framework */,
+				147EA60296E93CC18C35CB3E /* Pods_OODeepLinkKit_tvOS_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2DC4AB208CF22A00BBF5DA /* Build configuration list for PBXNativeTarget "OODeepLinkKit iOS" */;
 			buildPhases = (
-				EE1C1F87E2CCEDAF24DD8EE4 /* [CP] Check Pods Manifest.lock */,
+				34D345235B5C5F190BA1E95A /* [CP] Check Pods Manifest.lock */,
 				0A2DC49E208CF22A00BBF5DA /* Sources */,
 				0A2DC49F208CF22A00BBF5DA /* Frameworks */,
 				0A2DC4A0208CF22A00BBF5DA /* Headers */,
@@ -308,12 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2DC4D2208CF33A00BBF5DA /* Build configuration list for PBXNativeTarget "OODeepLinkKit iOS Example" */;
 			buildPhases = (
-				629AAB9A78FEFDFECBAC61AD /* [CP] Check Pods Manifest.lock */,
+				ABF390DA53AE20E61617DD8D /* [CP] Check Pods Manifest.lock */,
 				0A2DC4BB208CF33800BBF5DA /* Sources */,
 				0A2DC4BC208CF33800BBF5DA /* Frameworks */,
 				0A2DC4BD208CF33800BBF5DA /* Resources */,
 				0A2DC4F5208CF36F00BBF5DA /* Embed Frameworks */,
-				96E67197F3D4D3044F925752 /* [CP] Embed Pods Frameworks */,
+				8E1EF6617F36ACC1DD246A2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,12 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2DC4E9208CF35900BBF5DA /* Build configuration list for PBXNativeTarget "OODeepLinkKit tvOS Example" */;
 			buildPhases = (
-				CB1A7CB7AF5050DC4191B860 /* [CP] Check Pods Manifest.lock */,
+				90EF36052C92A04C70F32975 /* [CP] Check Pods Manifest.lock */,
 				0A2DC4D5208CF35700BBF5DA /* Sources */,
 				0A2DC4D6208CF35700BBF5DA /* Frameworks */,
 				0A2DC4D7208CF35700BBF5DA /* Resources */,
 				0A2DC4F0208CF36600BBF5DA /* Embed Frameworks */,
-				6E4A4A8B3D85E8A7CD7CC1D1 /* [CP] Embed Pods Frameworks */,
+				12A26586622173DB44F268C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,7 +350,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2DC504208CF58000BBF5DA /* Build configuration list for PBXNativeTarget "OODeepLinkKit tvOS" */;
 			buildPhases = (
-				3C686B974618FBFC9F52CC3D /* [CP] Check Pods Manifest.lock */,
+				8B0A7DB2613F7EA99555EDAE /* [CP] Check Pods Manifest.lock */,
 				0A2DC4F6208CF58000BBF5DA /* Sources */,
 				0A2DC4F7208CF58000BBF5DA /* Frameworks */,
 				0A2DC4F8208CF58000BBF5DA /* Headers */,
@@ -446,43 +446,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C686B974618FBFC9F52CC3D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		629AAB9A78FEFDFECBAC61AD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit iOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E4A4A8B3D85E8A7CD7CC1D1 /* [CP] Embed Pods Frameworks */ = {
+		12A26586622173DB44F268C4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,7 +466,43 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96E67197F3D4D3044F925752 /* [CP] Embed Pods Frameworks */ = {
+		34D345235B5C5F190BA1E95A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0A7DB2613F7EA99555EDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1EF6617F36ACC1DD246A2A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,7 +522,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB1A7CB7AF5050DC4191B860 /* [CP] Check Pods Manifest.lock */ = {
+		90EF36052C92A04C70F32975 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,7 +540,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE1C1F87E2CCEDAF24DD8EE4 /* [CP] Check Pods Manifest.lock */ = {
+		ABF390DA53AE20E61617DD8D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,7 +551,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OODeepLinkKit iOS Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -760,7 +760,7 @@
 		};
 		0A2DC4AC208CF22A00BBF5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1013E9223F2EC90142E63A45 /* Pods-OODeepLinkKit iOS.debug.xcconfig */;
+			baseConfigurationReference = 26C4851E031BD0306FA7D791 /* Pods-OODeepLinkKit iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -772,11 +772,9 @@
 				INFOPLIST_FILE = OODeepLinkKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -787,7 +785,7 @@
 		};
 		0A2DC4AD208CF22A00BBF5DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87D8A5705B2DF38061EDE16B /* Pods-OODeepLinkKit iOS.release.xcconfig */;
+			baseConfigurationReference = 2BC654777E61204CA244547A /* Pods-OODeepLinkKit iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -799,11 +797,9 @@
 				INFOPLIST_FILE = OODeepLinkKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -814,16 +810,13 @@
 		};
 		0A2DC4D3208CF33A00BBF5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 130498CCF695991027AE1EF3 /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */;
+			baseConfigurationReference = 9AB7A6628DBFC30E6F828B4D /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OODeepLinkKit iOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -833,16 +826,13 @@
 		};
 		0A2DC4D4208CF33A00BBF5DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9B7C8A64984BB9D39299BE4 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */;
+			baseConfigurationReference = 7A07749347419F366E470B30 /* Pods-OODeepLinkKit iOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OODeepLinkKit iOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -852,17 +842,14 @@
 		};
 		0A2DC4EA208CF35900BBF5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E035E1F9D18C3534215D7DBD /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */;
+			baseConfigurationReference = 2F2BD18DB4783446A810C3A8 /* Pods-OODeepLinkKit tvOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OODeepLinkKit tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -874,17 +861,14 @@
 		};
 		0A2DC4EB208CF35900BBF5DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBE8E97F50D8BB8CC08824D5 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */;
+			baseConfigurationReference = E41BCBC1ED83B8EFA64A7C87 /* Pods-OODeepLinkKit tvOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OODeepLinkKit tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -896,7 +880,7 @@
 		};
 		0A2DC505208CF58000BBF5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C731BBACEE3826D8BA65956F /* Pods-OODeepLinkKit tvOS.debug.xcconfig */;
+			baseConfigurationReference = CD814BD6BB8D93B8550BEE67 /* Pods-OODeepLinkKit tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -907,11 +891,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/OODeepLinkKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -924,7 +906,7 @@
 		};
 		0A2DC506208CF58000BBF5DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81D2589D2AC9BD035E94705D /* Pods-OODeepLinkKit tvOS.release.xcconfig */;
+			baseConfigurationReference = 7FDC2AA67B5B4BAA29C453D6 /* Pods-OODeepLinkKit tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -935,11 +917,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/OODeepLinkKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
