@@ -20,5 +20,5 @@ before_install:
 
 script:
     - set -o pipefail
-    - xcodebuild clean build -project OODeepLinkKit.xcworkspace -scheme 'OODeepLinkKit iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -project OODeepLinkKit.xcworkspace -scheme 'OODeepLinkKit tvOS'  -sdk appletvsimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace OODeepLinkKit.xcworkspace -scheme 'OODeepLinkKit iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace OODeepLinkKit.xcworkspace -scheme 'OODeepLinkKit tvOS'  -sdk appletvsimulator -configuration Debug | xcpretty
