@@ -1,16 +1,20 @@
 PODS:
   - DeepLinkKit (1.5.0)
+  - JRSwizzle (1.0)
 
 DEPENDENCIES:
   - DeepLinkKit
+  - JRSwizzle
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - DeepLinkKit
+    - JRSwizzle
 
 SPEC CHECKSUMS:
   DeepLinkKit: 98a26f2c5cf4c86b97c1170cdf3737ae49a3a50c
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
 
-PODFILE CHECKSUM: fc6aba0ae45e93e3034d9be51209725e5fd968e9
+PODFILE CHECKSUM: 260285c2241ebbe1dfec2d400e14f5cf81435697
 
 COCOAPODS: 1.5.0

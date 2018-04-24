@@ -28,6 +28,10 @@
 		0A2DC50B208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2DC508208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A2DC50C208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC509208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m */; };
 		0A2DC50D208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC509208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m */; };
+		0A4F4FE6208EC6BF004A6456 /* DPLMutableDeepLink+OO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FE4208EC6BF004A6456 /* DPLMutableDeepLink+OO.h */; };
+		0A4F4FE7208EC6BF004A6456 /* DPLMutableDeepLink+OO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FE4208EC6BF004A6456 /* DPLMutableDeepLink+OO.h */; };
+		0A4F4FE8208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */; };
+		0A4F4FE9208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */; };
 		2C684226B1CFD92AC7FDA806 /* Pods_OODeepLinkKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9919538D6210DBB563DFE1C /* Pods_OODeepLinkKit_tvOS.framework */; };
 		3417084A688EC3C6F9D783E3 /* Pods_OODeepLinkKit_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1CB98B692740B5FF4173B6 /* Pods_OODeepLinkKit_tvOS_Example.framework */; };
 		67D67914DB42560F216E42CD /* Pods_OODeepLinkKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679797E8B7730EC20E073604 /* Pods_OODeepLinkKit_iOS.framework */; };
@@ -102,6 +106,11 @@
 		0A2DC4FB208CF58000BBF5DA /* OODeepLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OODeepLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2DC508208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DPLDeepLinkRouter+OO.h"; sourceTree = "<group>"; };
 		0A2DC509208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DPLDeepLinkRouter+OO.m"; sourceTree = "<group>"; };
+		0A4F4FE4208EC6BF004A6456 /* DPLMutableDeepLink+OO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DPLMutableDeepLink+OO.h"; sourceTree = "<group>"; };
+		0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DPLMutableDeepLink+OO.m"; sourceTree = "<group>"; };
+		0A4F4FEB208F0ECE004A6456 /* OODeepLinkKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OODeepLinkKit.podspec; sourceTree = SOURCE_ROOT; };
+		0A4F4FEC208F0ECE004A6456 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0A4F4FED208F0ECE004A6456 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		1013E9223F2EC90142E63A45 /* Pods-OODeepLinkKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS/Pods-OODeepLinkKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		130498CCF695991027AE1EF3 /* Pods-OODeepLinkKit iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OODeepLinkKit iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 		679797E8B7730EC20E073604 /* Pods_OODeepLinkKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OODeepLinkKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +192,11 @@
 				0A2DC4A6208CF22A00BBF5DA /* OODeepLinkKit.h */,
 				0A2DC508208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h */,
 				0A2DC509208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m */,
+				0A4F4FE4208EC6BF004A6456 /* DPLMutableDeepLink+OO.h */,
+				0A4F4FE5208EC6BF004A6456 /* DPLMutableDeepLink+OO.m */,
+				0A4F4FED208F0ECE004A6456 /* LICENSE */,
+				0A4F4FEB208F0ECE004A6456 /* OODeepLinkKit.podspec */,
+				0A4F4FEC208F0ECE004A6456 /* README.md */,
 				0A2DC4A7208CF22A00BBF5DA /* Info.plist */,
 			);
 			path = OODeepLinkKit;
@@ -254,6 +268,7 @@
 			files = (
 				0A2DC50A208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h in Headers */,
 				0A2DC4A8208CF22A00BBF5DA /* OODeepLinkKit.h in Headers */,
+				0A4F4FE6208EC6BF004A6456 /* DPLMutableDeepLink+OO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +278,7 @@
 			files = (
 				0A2DC50B208CF64100BBF5DA /* DPLDeepLinkRouter+OO.h in Headers */,
 				0A2DC507208CF61A00BBF5DA /* OODeepLinkKit.h in Headers */,
+				0A4F4FE7208EC6BF004A6456 /* DPLMutableDeepLink+OO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,10 +490,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OODeepLinkKit tvOS Example/Pods-OODeepLinkKit tvOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DeepLinkKit-tvOS/DeepLinkKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-tvOS/JRSwizzle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeepLinkKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,10 +510,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OODeepLinkKit iOS Example/Pods-OODeepLinkKit iOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DeepLinkKit-iOS/DeepLinkKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-iOS/JRSwizzle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeepLinkKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -546,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2DC50C208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m in Sources */,
+				0A4F4FE8208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +595,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2DC50D208CF64100BBF5DA /* DPLDeepLinkRouter+OO.m in Sources */,
+				0A4F4FE9208EC6BF004A6456 /* DPLMutableDeepLink+OO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,7 +912,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -918,7 +940,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.OODeepLinkKit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.OODeepLinkKit;
 				PRODUCT_NAME = OODeepLinkKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;

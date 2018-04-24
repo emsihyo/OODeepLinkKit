@@ -10,11 +10,8 @@
 
 @interface DPLDeepLinkRouter (OO)
 
+- (BOOL)canHandleURL:(NSURL*)url;
 
-- (BOOL)oo_canHandleURL:(NSURL*)url;
-
-- (BOOL)oo_handleURL:(NSURL *)url paramters:(NSDictionary*)parameters withCompletion:(DPLRouteCompletionBlock)completionHandler;
-
-- (BOOL)oo_handleUserActivity:(NSUserActivity *)userActivity paramters:(NSDictionary*)parameters withCompletion:(DPLRouteCompletionBlock)completionHandler;
+- (BOOL)handleURL:(NSURL *)url parameters:(NSDictionary*)parameters withCompletion:(DPLRouteCompletionBlock)completionHandler;
 
 @end
