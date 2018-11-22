@@ -12,6 +12,8 @@
 
 - (BOOL)canHandleURL:(NSURL*)url;
 
+- (BOOL)handleURL:(NSURL *)url parameters:(NSDictionary*)parameters;
+
 - (BOOL)handleURL:(NSURL *)url parameters:(NSDictionary*)parameters withCompletion:(DPLRouteCompletionBlock)completionHandler;
 
 @end
